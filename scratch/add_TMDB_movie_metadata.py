@@ -28,8 +28,8 @@ start_index = 0  # You can adjust this if you need to start from a specific inde
 
 # If you have a saved progress file, you can use it to resume
 # For example, if you have a 'progress.json' file containing previously processed indices:
-saved_progress = pd.read_json('progress.json')['index'].tolist()
-start_index = saved_progress[-1] + 1  # Start from the next index
+#saved_progress = pd.read_json('progress.json')['index'].tolist()
+#start_index = saved_progress[-1] + 1  # Start from the next index
 
 # Create a DataFrame to store your data
 movie_metadata_TMDB = movie_metadata.copy()
@@ -87,9 +87,9 @@ for index, row in tqdm(movie_metadata_TMDB.iterrows(), total=len(movie_metadata_
 
             # Save progress periodically (in case of interruption)
             if index % 50 == 0:
-                movie_metadata_TMDB.to_csv('movie_metadata_TMDB.csv', index=False)
                 progress_df = pd.DataFrame({'index': saved_progress})
                 progress_df.to_json('progress.json')
+                movie_metadata_TMDB.to_csv('movie_metadata_TMDB.csv', index=False)
 
     except Exception as e:
         print(f"Error at index {index}: {str(e)}")
