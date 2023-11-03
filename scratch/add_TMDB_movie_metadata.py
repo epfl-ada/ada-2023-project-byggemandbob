@@ -24,7 +24,7 @@ tmdb.REQUESTS_TIMEOUT = 5  # seconds, for both connect and read
 saved_progress = []
 
 # Determine where to resume (if applicable)
-start_index = 0  # You can adjust this if you need to start from a specific index
+start_index = 11000  # You can adjust this if you need to start from a specific index
 
 # If you have a saved progress file, you can use it to resume
 # For example, if you have a 'progress.json' file containing previously processed indices:
@@ -36,9 +36,10 @@ movie_metadata_TMDB = movie_metadata.copy()
 
 for index, row in tqdm(movie_metadata_TMDB.iterrows(), total=len(movie_metadata_TMDB), desc="Processing"):
     # Skip previously processed indices
-    if index in saved_progress:
+    #if index in saved_progress:
+    #    continue
+    if index < start_index:
         continue
-
     try:
         if not pd.isna(row["Movie release date"]):
             search = tmdb.Search()
