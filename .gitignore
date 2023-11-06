@@ -1,4 +1,11 @@
+# gus files for TMDB scrape
+scratch/movie_metadata_TMDB11407.csv
+scratch/movie_metadata_TMDB28000.csv
+scratch/movie_metadata_TMDBrest.csv
+scratch/progress.json
+
 *.bak 
+.env
 
 .ipynb_checkpoints/
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm+all
