@@ -24,7 +24,7 @@ tmdb.REQUESTS_TIMEOUT = 5  # seconds, for both connect and read
 saved_progress = []
 
 # Determine where to resume (if applicable)
-start_index = 11000  # You can adjust this if you need to start from a specific index
+start_index = 28000  # You can adjust this if you need to start from a specific index
 
 # If you have a saved progress file, you can use it to resume
 # For example, if you have a 'progress.json' file containing previously processed indices:
