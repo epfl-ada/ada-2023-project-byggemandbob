@@ -93,3 +93,11 @@ fabric.properties
 !.idea/runConfigurations
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm+all
+/summaries_dist.json
+/preprocessed_summaries.pkl
+/preprocessed_summaries.csv
+/clustered_movies_test.csv
+/clustered_movies.csv
+/cluster_words.csv
+/cluster_labels.pkl
+.DS_Store
