@@ -1,11 +1,4 @@
-# gus files for TMDB scrape
-scratch/movie_metadata_TMDB11407.csv
-scratch/movie_metadata_TMDB28000.csv
-scratch/movie_metadata_TMDBrest.csv
-scratch/progress.json
-
 *.bak 
-.env
 
 .ipynb_checkpoints/
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm+all
@@ -100,3 +93,11 @@ fabric.properties
 !.idea/runConfigurations
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm+all
+/summaries_dist.json
+/preprocessed_summaries.pkl
+/preprocessed_summaries.csv
+/clustered_movies_test.csv
+/clustered_movies.csv
+/cluster_words.csv
+/cluster_labels.pkl
+.DS_Store
