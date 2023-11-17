@@ -109,3 +109,4 @@ fabric.properties
 /cluster_words.csv
 /cluster_labels.pkl
 .DS_Store
+/.env
