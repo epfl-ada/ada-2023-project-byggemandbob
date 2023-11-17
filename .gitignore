@@ -1,3 +1,5 @@
+.DS_Store
+
 # gus files for TMDB scrape
 scratch/movie_metadata_TMDB11407.csv
 scratch/movie_metadata_TMDB28000.csv
