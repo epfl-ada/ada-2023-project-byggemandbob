@@ -1,3 +1,9 @@
+# Datastory (website)
+[Datastory REPO](https://github.com/Nuimo/ada-website-byggemandbob/tree/master)
+
+[Datastory LINK](https://nuimo.github.io/ada-website-byggemandbob/)
+
+
 # Maximizing Box-Office Revenue and Rankings: Crafting the Perfect Movie Formula
 
 ## Abstract
