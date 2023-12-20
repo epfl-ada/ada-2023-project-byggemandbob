@@ -42,11 +42,11 @@ Visualization Techniques: To effectively display our findings, we employ visuali
 Utilizing ChatGPT-4 for Movie Poster Creation: As part of our visualization strategy, we're using ChatGPT-4's capabilities to generate movie posters. This method involves feeding the AI a list of top prominent words in a cluster, allowing it to create posters that visually represent each movie's essence. This approach not only enhances our project's visual appeal but also demonstrates a new application of AI in trying to blend data analysis with creative design.
 
 ## Contributions of group members
-Mathias: Natural language processing
-Emma: Linear regression modelling, README
-Sofie: Data cleaning, Linear regression modelling
-Kavus: Linear regression modelling, README
-Gustav: Enrichment, datastory setup
+- Mathias: Natural language processing
+- Emma: Linear regression modelling, README
+- Sofie: Data cleaning, Linear regression modelling
+- Kavus: Linear regression modelling, README
+- Gustav: Enrichment, datastory setup
 
 All group members contributed equally to the writing aspect of the datastory.
 
