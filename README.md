@@ -24,7 +24,6 @@ Lastly, the attributes found to contribute to high revenue and rating from the t
 3. How do the different relevant attributes from the meta-data impact the rating and revenue of movies? And what combination of features contribute to a high rating, and to a high revenue?
 4. What patterns and relationships exist between word clusters in movie plot summaries and how do they correlate with the average revenue and ratings?
 5. What insights can be drawn regarding the content and themes associated with highly rated and high revenue movies based on the top 10 words in the different clusters?
-6. How do the word clusters of the plot summaries compare to the traditional attributes of the movies, in predicting the success of a movie in terms of rating and revenue?
 
 ## Proposed Additional Datasets
 
