@@ -15,8 +15,6 @@ Using the CMU Movie Summary Corpus dataset and TMDB movie data, this project wil
 1. A linear regression model predicting movie ratings and revenue, based on traditional movie attributes such as gender distribution, original language, and genre.
 2. A NLP model for analyzing the movie plot summaries, using unsupervised learning for clustering. The assessment will be made on whether the clusters differ significantly in terms of revenue and ratings.
 
-Lastly, the attributes found to contribute to high revenue and rating from the two models will be compared.
-
 ## Research Questions
 
 1. How are the main attributes within both movie metadata and movie character metadata distributed?
@@ -53,8 +51,5 @@ Gustav: Enrichment, datastory setup
 All group members contributed equally to the writing aspect of the datastory.
 
 ## Notebook
-
 A notebook containing initial analyses and data handling pipelines can be found in [pipeline.ipynb](pipeline.ipynb).
-
-
 
