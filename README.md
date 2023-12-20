@@ -26,9 +26,9 @@ Lastly, the attributes found to contribute to high revenue and rating from the t
 5. What insights can be drawn regarding the content and themes associated with highly rated and high revenue movies based on the top 10 words in the different clusters?
 6. How do the word clusters of the plot summaries compare to the traditional attributes of the movies, in predicting the success of a movie in terms of rating and revenue?
 
-## Proposed Additional Datasets
+## Additional Datasets
 
-We would like to use [TMDB](https://www.themoviedb.org/) for enriching our data with both revenue and TMDB ratings for the movies. The core of this project is to investigate factors contributing to the success of a movie, measured by revenue and TMDB ratings. It is therefore essential to have sufficient amounts of such data to ensure robustness and representativeness of our findings.
+We used [TMDB](https://www.themoviedb.org/) for enriching our data with both revenue and TMDB ratings for the movies.
 
 ## Methods
 Data Preparation: This stage involves data cleaning, filtering, and transformation. We strive to refine the dataset to ensure accuracy and relevance for our analysis.
@@ -37,7 +37,7 @@ Data Collection: We use API calls to collect extensive data. This step is import
 
 Natural Language Processing (NLP): An integral part of our analysis involves NLP techniques. We start with data preprocessing, where the raw text data is cleaned and prepared for analysis. This is followed by tokenization and TF/IDF vectorization, breaking down the text into meaningful segments and evaluating their significance. Our approach includes word clustering using unsupervised machine learning techniques like K-means++, which helps in identifying patterns and themes in movie plot summaries.
 
-Statistical and Regression Analysis: To predict movie ratings and revenue, we are developing a multivariate linear regression model. This model will help us understand the relationship between various movie attributes and their impact on success. Complementing this, we perform a range of statistical analyses, including the generation of boxplots, histograms, and t-tests, to understand the distribution and correlation of different variables. Confidence intervals will also be used to understand the precision of our estimates.
+Statistical and Regression Analysis: To predict movie ratings and revenue, we are developing a multivariate linear regression model. This model will help us understand the relationship between various movie attributes and their impact on success. Furthermore, we perform a range of statistical analyses, including the generation of boxplots, histograms, and t-tests, to understand the distribution and correlation of different variables. Confidence intervals will also be used to understand the precision of our estimates.
 
 Visualization Techniques: To effectively display our findings, we employ visualization tools. This includes creating box plots and histograms to illustrate data distributions, scatterplots for exploring relationships between variables, and word clouds to visually represent the most prominent themes in movie plot summaries.
 
