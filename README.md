@@ -24,80 +24,33 @@ Lastly, the attributes found to contribute to high revenue and rating from the t
 3. How do the different relevant attributes from the meta-data impact the rating and revenue of movies? And what combination of features contribute to a high rating, and to a high revenue?
 4. What patterns and relationships exist between word clusters in movie plot summaries and how do they correlate with the average revenue and ratings?
 5. What insights can be drawn regarding the content and themes associated with highly rated and high revenue movies based on the top 10 words in the different clusters?
+6. How do the word clusters of the plot summaries compare to the traditional attributes of the movies, in predicting the success of a movie in terms of rating and revenue?
 
 ## Proposed Additional Datasets
 
 We would like to use [TMDB](https://www.themoviedb.org/) for enriching our data with both revenue and TMDB ratings for the movies. The core of this project is to investigate factors contributing to the success of a movie, measured by revenue and TMDB ratings. It is therefore essential to have sufficient amounts of such data to ensure robustness and representativeness of our findings.
 
 ## Methods
+Data Preparation: This stage involves data cleaning, filtering, and transformation. We strive to refine the dataset to ensure accuracy and relevance for our analysis.
 
-- Data cleaning, filtering, and transformation
-- Data collection by making API calls
-- Natural language processing: data preprocessing, tokenization, TF/IDF vectorization, word clustering using unsupervised machine learning such as K-means++
-- Multivariate linear regression (in process)
-- Statistical analysis: Boxplots, histograms, linear regression, confidence intervals, t-tests
-- Visualization: Box Plots, histograms, scatterplot, word clouds
+Data Collection: We use API calls to collect extensive data. This step is important for gathering rich and comprehensive datasets, mainly TMDB, which will enrich our understanding of movie revenues and ratings.
 
-## Proposed Timeline
+Natural Language Processing (NLP): An integral part of our analysis involves NLP techniques. We start with data preprocessing, where the raw text data is cleaned and prepared for analysis. This is followed by tokenization and TF/IDF vectorization, breaking down the text into meaningful segments and evaluating their significance. Our approach includes word clustering using unsupervised machine learning techniques like K-means++, which helps in identifying patterns and themes in movie plot summaries.
 
-### Week 1: 13/11-19/11/2023 (5 weeks until the final deadline week)
+Statistical and Regression Analysis: To predict movie ratings and revenue, we are developing a multivariate linear regression model. This model will help us understand the relationship between various movie attributes and their impact on success. Complementing this, we perform a range of statistical analyses, including the generation of boxplots, histograms, and t-tests, to understand the distribution and correlation of different variables. Confidence intervals will also be used to understand the precision of our estimates.
 
-- Submit Project Milestone 2
-- Finish project pipeline and research questions
-- Finish preliminary data analysis
-- Finish data enrichment
-- Finish filtering and preprocessing
-- Start on linear regression model
-- Continue working on natural language processing model
+Visualization Techniques: To effectively display our findings, we employ visualization tools. This includes creating box plots and histograms to illustrate data distributions, scatterplots for exploring relationships between variables, and word clouds to visually represent the most prominent themes in movie plot summaries.
 
-### Week 2: 20/11-26/11/2023 (4 weeks until the final deadline week)
+Utilizing ChatGPT-4 for Movie Poster Creation: As part of our visualization strategy, we're using ChatGPT-4's capabilities to generate movie posters. This method involves feeding the AI a list of top prominent words in a cluster, allowing it to create posters that visually represent each movie's essence. This approach not only enhances our project's visual appeal but also demonstrates a new application of AI in trying to blend data analysis with creative design.
 
-- Work on Homework 2
+## Contributions of group members
+Mathias: Natural language processing
+Emma: Linear regression modelling, README
+Sofie: Data cleaning, Linear regression modelling
+Kavus: Linear regression modelling, README
+Gustav: Enrichment, datastory setup
 
-### Week 3: 27/11-03/12/2023 (3 weeks until the final deadline week)
-
-- Set up website
-- Continue working on model constructions
-- Start writing data story
-- Start analyzing initial results
-
-### Week 4: 04/12-10/12/2023 (2 weeks until the final deadline week)
-
-- Finalize model constructions
-- Continue working on the analysis of results
-- Continue writing the data story
-
-### Week 5: 11/12-17/12/2023 (1 week until the final deadline week)
-
-- Finalize the analysis of results
-- Almost finalize writing the data story
-- Almost finalize writing the project repository
-
-### Week 6: 18/12-24/12/2023 (0 weeks until the final deadline week)
-
-- Finalize writing the data story
-- Finalize writing the project repository
-- Proofread the data story, Readme.me, and final project repository
-- Submit the project repository
-
-## Organization Within the Team
-
-### Internal Milestones
-
-- Fri 17/11/2023: Submit Project Milestone 2
-- Sun 26/11/2023: Submit Homework 2
-- Sun 10/12/2023: Finalize models
-- Wed 13/12/2023: Finalize the analysis of results
-- Fri 15/12/2023: Finalize 80% of writing
-- Wed 20/12/2023: Finalize writing
-- Fri 22/12/2023: Submit Project Milestone 3
-
-## Questions for the TA
-
-- Model comparison: How can we compare the NLP model clustering movies based on plot summaries with the linear regression model investigating the coefficient of traditional attributes for predicting rating and revenue? Is comparing the dominant attributes of clusters to the coefficients of the regression model reasonable?
-- Handling missing data for revenue: Should we only include data points with both revenue and rating?
-- Transform predicting attributes: When making a linear fit, if the predicting attributes are heavy-tailed, should we log-transform the data before fitting the model?
-- Is it incorrect to use SEM instead of STD when plotting error bars?
+All group members contributed equally to the writing aspect of the datastory.
 
 ## Notebook
 
